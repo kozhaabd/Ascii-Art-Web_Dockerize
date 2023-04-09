@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii-art-web</title>
+    <link href="/style/home.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <div class="Home" align = center>
+            <form method="POST" action="/ascii-art">
+                <h1>Ascii-Art-Web</h1>
+                <textarea placeholder="Type something here ..." name="text" cols="55" rows="12" required></textarea>
+                <br> <br>
+                <select class="box" name="font">.html
+                    <option value="standard">Standard</option>
+                    <option value="thinkertoy">Thinkertoy</option>
+                    <option value="shadow">Shadow</option>
+                </select>
+                <br> <br>
+                <button>Submit</button>
+                <div class="output" style="text-align: center;">
+                    <pre class="result">{{.}}</pre>
+                </div>
+            </form>
+        </div>
+    </div>
+
+        
+</body>
+</html>
