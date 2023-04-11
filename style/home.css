@@ -1,0 +1,81 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    background-image: url(/style/matrix.jpg);
+  
+    height: 100%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    resize: vertical;
+    background-color:gray;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    max-width:95%;
+    resize: none;
+  }
+
+select{
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    margin-bottom: 30px;
+}
+  
+button:hover {background-color: darkgray}
+  
+button:active {
+    background-color: darkgray;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.result {
+    max-width: 1000px;
+    margin: auto;
+    height: 250px;
+    border: 3px solid white; 
+    background-color: gray; 
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    overflow: scroll;   
+    padding-left : 10px;
+}
+
+
