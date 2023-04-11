@@ -23,5 +23,5 @@ Ascii-art-web-dockerize here we try cofigurate our project by using technology D
     docker run --name cont -dp 3333:3000 ascii-art-web
 3.Open the web browser and go to
 
-    http://127.0.0.1:3333/
+    http://127.0.0.1:3000/
     
